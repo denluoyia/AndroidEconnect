@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="red">#ffce3d3a</color>-->
+    <!--<color name="red_dark">#ffce3d3a</color>-->
+    <!--<color name="red_accent">#F54336</color>-->
+    <!--<color name="cloudmusic">#ffce3d3a</color>-->
+
+
+    <color name="green">#4CAF50</color>
+    <color name="dark_green">#4CAF50</color>
+    <color name="accent_green">#4CAF50</color>
+    <color name="pcbtn_green">#77B779</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+
+
+    <color name="text_color_primary">#212121</color>
+    <color name="text_second_color_primary">#727272</color>
+
+    <color name="grey" >#ffbebebe</color>
+    <color name="grey_1">#9E9E9E</color>
+    <color name="dark_grey">#FF080808</color>
+    <color name="light_grey">#ffbebebe</color>
+    <color name="light_grey_cc">#CCCCCC</color>
+    <color name="light_grey_1">#FFEEEEEE</color>
+    <color name="gray_333">#333333</color>
+    <color name="light_grey_ddd">#dddddd</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="white">@android:color/white</color>
+    <color name="white_halftransparency">#7fffffff</color>
+
+    <color name="window_background">@android:color/white</color>
+    <color name="layout_background">#EEEDED</color>
+    <color name="btn_background">#FDFDFD</color>
+
+    <color name="drawer_scrim_color">#88EEEEEE</color>
+    <color name="toolbar_title_color">@android:color/white</color>
+    <color name="toolbar_bg_color">@android:color/black</color>
+
+
+    <color name="light_green">#62e26f</color>
+    <color name="light_red">#e18277</color>
+    <color name="light_blue">#96daf5</color>
+    <color name="light_orange">#dfb663</color>
+
+
+</resources>

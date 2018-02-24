@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lzq.econnect.ui.fragment.FileFragment">
+
+
+    <com.lzq.econnect.view.FileRecyclerView
+        android:id="@+id/file_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </com.lzq.econnect.view.FileRecyclerView>
+
+    <LinearLayout
+        android:id="@+id/no_data_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</FrameLayout>

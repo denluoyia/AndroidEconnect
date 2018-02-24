@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">E连</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="ld_menu_list">
+        <item>关于我们</item>
+        <item>意见反馈</item>
+        <item>退出应用</item>
+    </string-array>
+
+
+    <string name="connect_success">连接成功</string>
+    <string name="connect_failure">连接失败</string>
+    <string name="port_out_bounds">端口号越界了</string>
+    <string name="file_not_exists">文件不存在！！！</string>
+    <string name="port_input_tips">输入的ip地址或端口号有误，请重新输入。</string>
+
+    <string name="default_ip">192.168.1.1</string>
+    <string name="default_port1">55555</string>
+    <string name="default_port2">33333</string>
+
+
+    <string name="e_connect">Econnect</string>
+    <string name="inner_storage">内部存储</string>
+    <string name="file_manager">文件管理</string>
+
+
+    <string name="empty_directory_hint">无可选文件</string>
+    <string name="start_path_name">设备</string>
+    <string name="type_archive">压缩包</string>
+    <string name="type_certificate">证书</string>
+    <string name="type_directory">目录</string>
+    <string name="type_document">文件</string>
+    <string name="type_drawing">图片</string>
+    <string name="type_excel">EXCEL</string>
+    <string name="type_image">照片</string>
+    <string name="type_music">音乐</string>
+    <string name="type_video">视频</string>
+    <string name="type_pdf">PDF</string>
+    <string name="type_txt">TXT</string>
+    <string name="type_power_point">PPT</string>
+    <string name="type_word">WORD</string>
+    <string name="type_apk">APK</string>
+
+
+</resources>

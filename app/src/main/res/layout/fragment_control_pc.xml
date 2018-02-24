@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.lzq.econnect.ui.fragment.ControlPCFragment">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="遥控电脑"
+            android:gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/upBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="U" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/leftBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="L"/>
+            <Button
+                android:id="@+id/downBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="D"/>
+            <Button
+                android:id="@+id/rightBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="R"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/backBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="BACK" />
+            <Button
+                android:id="@+id/spaceBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="SPACE"/>
+            <Button
+                android:id="@+id/enterBtn"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="ENTER"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal">
+            <Button
+                android:id="@+id/sleepBtn"
+                android:layout_width="152dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="休眠"/>
+            <Button
+                android:id="@+id/timeShutBtn"
+                android:layout_width="152dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="定时关机"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/pastClipBtn"
+                android:layout_width="105dp"
+                android:layout_height="80dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="粘贴"/>
+
+            <Button
+                android:id="@+id/openWebBtn"
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/white"
+                android:background="@drawable/selector_btn_control_pc"
+                android:text="在电脑上浏览网页连接"/>
+        </LinearLayout>
+
+
+</LinearLayout>

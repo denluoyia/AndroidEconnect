@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="你觉得这个应用怎么样?"
+                android:textColor="@color/gray_333"
+                android:textSize="14sp"/>
+
+            <RadioGroup
+                android:id="@+id/rg_assess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rg_assess_one"
+                    style="@style/feedback_radioBtn_style"
+                    android:drawableTop="@drawable/selector_feedback_good"
+                    android:text="挺不错的"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rg_assess_two"
+                    style="@style/feedback_radioBtn_style"
+                    android:drawableTop="@drawable/selector_feedback_yiban"
+                    android:text="感觉一般"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rg_assess_three"
+                    style="@style/feedback_radioBtn_style"
+                    android:drawableTop="@drawable/selector_feedback_cha"
+                    android:text="不是很好"
+                    />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/circle_corner_feedback_bg"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                >
+
+                <EditText
+                    android:id="@+id/et_feedback"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="0dp"
+                    android:background="@null"
+                    android:gravity="top"
+                    android:hint="请告诉我们您遇到的问题或想反馈的意见"
+                    android:maxLength="200"
+                    android:textColor="@color/gray_333"
+                    android:textColorHint="@color/text_second_color_primary"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <!--提交按钮-->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/selector_btn_feedback_submit"
+                android:text="提交"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

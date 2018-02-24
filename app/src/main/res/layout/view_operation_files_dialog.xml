@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp"
+    android:paddingRight="30dp"
+    android:paddingLeft="30dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="选择要进行的操作"
+        android:textColor="@color/accent_green"/>
+
+    <TextView
+        android:id="@+id/new_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="新建文件"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/rename_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重命名"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/copy_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="复制"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/cut_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="剪切"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/stick_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="粘贴"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/delete_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/cancle_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textColor="#e95252"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
