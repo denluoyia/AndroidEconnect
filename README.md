@@ -10,4 +10,7 @@
 
 
 ##### 使用说明： 
-在工程目录下的apk_and_exe中，分别是手机.apk文件和服务端的可执行.jar文件，win7下可以执行命令行[java -jar xxx.jar]来执行。
+
+在工程目录apk_and_exe下，分别是手机.apk文件和服务端可执行.jar文件，win7下可以执行命令行[java -jar xxx.jar]来执行。
+
+![image](https://github.com/denluoyia/AndroidEconnect/blob/master/screenshot/demonstration.gif)
